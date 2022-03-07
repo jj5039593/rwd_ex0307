@@ -6,6 +6,7 @@
     
 }
 .container .inner-container{
+    padding: 20px 0;
 }
 .container .inner-container .index{
     display: flex;
@@ -13,9 +14,11 @@
 }
 .container .inner-container .index .sections{
     flex: 0 1 1200px;
+
 }
 .container .inner-container .index .sections .sections.sec1{
     width: 100%;
+    height: 500px;
     
 }
 .container .inner-container .index .sections .sections.sec1 .sec-con{
@@ -41,5 +44,8 @@
 }
 .container .inner-container .index .sections .sections.sec1 .sec-con .gallery ul li:nth-child(1){
     background: url(../../img/magazine_00.jpg) no-repeat 50%/cover;
+}
+.container .inner-container .index .sections .sections.sec1 .sec-con .gallery ul li:nth-child(1){
+    background: url(http://placehold.it/000000Xffffff?text=background) no-repeat 50%/cover;
 }
 
