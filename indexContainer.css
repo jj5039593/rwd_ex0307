@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*indexContainer.css*/
+
+.container{
+    
+}
+.container .inner-container{
+}
+.container .inner-container .index{
+    display: flex;
+    justify-content: center;
+}
+.container .inner-container .index .sections{
+    flex: 0 1 1200px;
+}
+.container .inner-container .index .sections .sections.sec1{
+    width: 100%;
+    
+}
+.container .inner-container .index .sections .sections.sec1 .sec-con{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    border: 1px solid;
+    box-sizing: border-box;
+   background-color: aquamarine;
+
+}
+.container .inner-container .index .sections .sections.sec1 .sec-con .gallery ul{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+}
+.container .inner-container .index .sections .sections.sec1 .sec-con .gallery ul li{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    border:1px solid;
+    box-sizing: border-box;
+}
+.container .inner-container .index .sections .sections.sec1 .sec-con .gallery ul li:nth-child(1){
+    background: url(../../img/magazine_00.jpg) no-repeat 50%/cover;
+}
+
